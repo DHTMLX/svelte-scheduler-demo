@@ -11,6 +11,8 @@ yarn start
 
 ## Useful links
 
+- **[Online demo](https://replit.com/@dhtmlx/dhtmlx-scheduler-with-svelte)**
+- [More demos about the DHTMLX Scheduler functionality](https://snippet.dhtmlx.com/jb8mc2c7?tag=scheduler&mode=wide)
 - [Technical support](https://forum.dhtmlx.com/c/scheduler-all)
 - [Online  documentation](https://docs.dhtmlx.com/scheduler/)
 
