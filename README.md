@@ -25,7 +25,8 @@ You can also use [GitHub Codespaces](https://docs.github.com/en/codespaces/devel
 ## Useful links
 
 - **[Online demo](https://replit.com/@dhtmlx/dhtmlx-scheduler-with-svelte)**
-- [More demos about the DHTMLX Scheduler functionality](https://snippet.dhtmlx.com/jb8mc2c7?tag=scheduler&mode=wide)
+- [Learn about DHTMLX Scheduler](https://dhtmlx.com/docs/products/dhtmlxScheduler/)
+- [More demos about the DHTMLX Scheduler functionality](https://docs.dhtmlx.com/scheduler/samples)
 - [Technical support](https://forum.dhtmlx.com/c/scheduler-all)
 - [Online  documentation](https://docs.dhtmlx.com/scheduler/)
 
