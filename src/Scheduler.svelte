@@ -2,15 +2,21 @@
     import { onMount } from "svelte";
     
     import { Scheduler } from "@dhx/trial-scheduler";
-    import "@dhx/trial-scheduler/codebase/dhtmlxscheduler_material.css"
+    import "@dhx/trial-scheduler/codebase/dhtmlxscheduler.css"
     export let data;
 
     let scheduler;
     let container;
     onMount(() => {
         scheduler = Scheduler.getSchedulerInstance();
+        scheduler.skin = "material"
         scheduler.init(container, new Date(2023, 9, 6), "week");
-        scheduler.events.on("ActionName", () => {})
+
+        scheduler.createDataProcessor((entity, action, data, id) => {
+            scheduler.message(`${entity}-${action} -> id=${id}`);
+            console.log(`${entity}-${action}`, data);
+        });
+
         return () => scheduler.destructor();
     });
 

@@ -19,9 +19,9 @@
   "scripts": {
     "build": "rollup -c",
     "autobuild": "rollup -c -w",
-    "dev": "run-p start:dev autobuild",
-    "start": "sirv public",
-    "start:dev": "sirv public --dev"
+    "start": "run-p public:dev autobuild",
+    "public": "sirv public",
+    "public:dev": "sirv public --dev"
   },
   "keywords": [],
   "description": ""
